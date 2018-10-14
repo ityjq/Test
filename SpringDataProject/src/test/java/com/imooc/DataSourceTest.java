@@ -43,6 +43,8 @@ public class DataSourceTest {
         System.out.println("testJdbcTemplate");
         JdbcTemplate jdbcTemplate = (JdbcTemplate)ctx.getBean("jdbcTemplate");
         Assert.notNull(jdbcTemplate);
+        System.out.println("GitHub3");
+        System.out.println("GitHub1");
         System.out.println("GitHub2");
     }
 
