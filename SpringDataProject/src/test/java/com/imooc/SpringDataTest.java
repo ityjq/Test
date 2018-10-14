@@ -25,7 +25,7 @@ public class SpringDataTest {
 
     @Test
     public void testEntityManagerFactory(){
-
+        System.out.println("testEntityManagerFactory");
     }
 
 }
